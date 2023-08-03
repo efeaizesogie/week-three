@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js Task</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section class="one">
+      <div class="container">
+        <div class="accordion">
+          <div class="accordion-header">FAQ 1</div>
+          <div class="accordion-body">This is the answer to FAQ 1.</div>
+        </div>
+        <div class="accordion">
+          <div class="accordion-header">FAQ 2</div>
+          <div class="accordion-body">This is the answer to FAQ 2.</div>
+        </div>
+        <div class="accordion">
+          <div class="accordion-header">FAQ 3</div>
+          <div class="accordion-body">This is the answer to FAQ 3.</div>
+        </div>
+        <div class="accordion">
+          <div class="accordion-header">FAQ 4</div>
+          <div class="accordion-body">This is the answer to FAQ 4.</div>
+        </div>
+            </section>
+            <section class="color_change two">
+        <div class="container">
+          <h2>Click the button to change color</h2>
+          <button class="btn changer">Color</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="three">
+      <div class="container">
+        <label for="datetime-local">Enter a date (MM-DD-YYYY):</label>
+        <div class="flex">
+          <input type="datetime-local" name="set-date" id="date" />
+          <button class="btn btn-count">Start Countdown</button>
+        </div>
+        <h3 class="countdown">DD:HH:MM:SS</h3>
+      </div>
+    </section>
+
+    <section class="four">
+      <div class="container">
+        <h1>Tic-Tac-Toe</h1>
+  <div class="board" id="board">
+    <div class="cell" onclick="makeMove(0)"></div>
+    <div class="cell" onclick="makeMove(1)"></div>
+    <div class="cell" onclick="makeMove(2)"></div>
+    <div class="cell" onclick="makeMove(3)"></div>
+    <div class="cell" onclick="makeMove(4)"></div>
+    <div class="cell" onclick="makeMove(5)"></div>
+    <div class="cell" onclick="makeMove(6)"></div>
+    <div class="cell" onclick="makeMove(7)"></div>
+    <div class="cell" onclick="makeMove(8)"></div>
+  </div>
+  <p id="status"></p>
+  <button class="btn restart">Restart Game</button>
+  </div>
+      
+    </section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

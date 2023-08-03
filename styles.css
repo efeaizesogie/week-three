@@ -1,0 +1,90 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.accordion {
+  border: 1px solid #ccc;
+  width: 80%;
+  margin: 0 auto 10px auto;
+}
+
+.accordion-header {
+  background-color: #f2f2f2;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-body {
+  display: none;
+  padding: 10px;
+}
+
+.accordion.active .accordion-header {
+  background-color: #474747;
+}
+
+section {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #e9910d;
+  border-radius: 5px;
+  border: 1px solid #e9910d;
+}
+
+#date {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  text-decoration: solid;
+}
+
+label {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.countdown {
+  margin-top: 20px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  gap: 2px;
+}
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bold;
+  background-color: #adacac;
+  cursor: pointer;
+}
+
+.one {
+  background-color: #c9c9c9;
+}
+
+.three {
+  background-color: #c9c9c9;
+}
+
+.restart {
+  display: none;
+}
